@@ -1,4 +1,4 @@
-# Unity visemes translator script for MMD motion - BETA
+# Unity visemes translator script for MMD motion Shapes key- BETA
 
 Prefabs created by: PonyCid
 
