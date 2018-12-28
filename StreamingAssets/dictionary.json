@@ -1,0 +1,2386 @@
+{"dictionary":
+[
+    {	
+		"japName":"まばたき",
+		"newEngName":"Blink",
+		"oldEngName":"Blink"
+    },
+
+    {
+		"japName":"笑い",
+		"newEngName":"Blink Happy",
+		"oldEngName":"A laugh"
+    },
+
+    {
+		"japName":"ウィンク",
+		"newEngName":"Wink",
+		"oldEngName":"Wink"
+    },
+
+    {  
+		"japName":"ウィンク右",
+		"newEngName":"Wink right",
+		"oldEngName":"Wink right"
+    },
+
+    {
+		"japName":"ウィンク２",
+		"newEngName":"Wink 2",
+		"oldEngName":"Wink 2"
+    },
+
+    {
+		"japName":"ウィンク２右",
+		"newEngName":"Wink 2 right",
+		"oldEngName":"Wink 2 right"
+    },
+
+    {
+		"japName":"なごみ",
+		"newEngName":"Calm",
+		"oldEngName":"Nagomi"
+    },
+
+    {
+		"japName":"はぅ",
+		"newEngName":"Close><",
+		"oldEngName":"What?"
+    },
+
+    {
+		"japName":"びっくり",
+		"newEngName":"Surprised",
+		"oldEngName":"Surprised"
+    },
+
+    {
+		"japName":"じと目",
+		"newEngName":"Stare",
+		"oldEngName":"Tooth and eyes"
+    },
+
+    {
+		"japName":"キリッ",
+		"newEngName":"Slant",
+		"oldEngName":"Kiri"
+    },
+
+    {
+		"japName":"はちゅ目",
+		"newEngName":"Hachiguchi",
+		"oldEngName":"Hachiguchi"
+    },	
+	
+	{
+		"japName":"はちゅ目縦潰れ",
+		"newEngName":"Hachu's eyes collapsed",
+		"oldEngName":"Hachu's eyes collapsed"
+    },
+	
+	{
+		"japName":"はちゅ目横潰れ",
+		"newEngName":"Hachu eyes collapse",
+		"oldEngName":"Hachu eyes collapse"
+    },
+	
+	{
+		"japName":"あ",
+		"newEngName":"Ah",
+		"oldEngName":"Ah"
+    },
+
+	{
+		"japName":"い",
+		"newEngName":"Ch",
+		"oldEngName":"There"
+    },
+
+	{
+		"japName":"う",
+		"newEngName":"U",
+		"oldEngName":"Cormorant"
+    },
+
+	{
+		"japName":"え",
+		"newEngName":"E",
+		"oldEngName":"Huh"
+    },
+
+	{
+		"japName":"お",
+		"newEngName":"Oh",
+		"oldEngName":"Your"
+    },
+
+	{
+		"japName":"あ２",
+		"newEngName":"a2",
+		"oldEngName":"a2"
+    },
+
+	{
+		"japName":"ん",
+		"newEngName":"Hmm",
+		"oldEngName":"Hmm"
+    },
+
+	{
+		"japName":"ワ",
+		"newEngName":"Wa",
+		"oldEngName":"Wa"
+    },
+
+	{
+		"japName":"にやり",
+		"newEngName":"Grin",
+		"oldEngName":"true colors"
+    },
+
+	{
+		"japName":"にっこり",
+		"newEngName":"Smile",
+		"oldEngName":"Smile"
+    },
+
+	{
+		"japName":"にやり２",
+		"newEngName":"Girls 2",
+		"oldEngName":"Girls 2"
+    },
+
+	{
+		"japName":"ぺろっ",
+		"newEngName":"Lick",
+		"oldEngName":"Licking"
+    },
+
+	{ 
+		"japName":"てへぺろ",
+		"newEngName":"Beat",
+		"oldEngName":"Beat"
+    },
+	
+	{
+		"japName":"てへぺろ２",
+		"newEngName":"Hello paste 2",
+		"oldEngName":"Hello paste 2"
+    },
+
+	{
+		"japName":"口角上げ",
+		"newEngName":"Lifting a mouth",
+		"oldEngName":"Lifting a mouth"
+    },
+
+	{
+		"japName":"口角下げ",
+		"newEngName":"Mouth corner lowering",
+		"oldEngName":"Mouth corner lowering"
+    },
+
+	{
+		"japName":"口横広げ",
+		"newEngName":"Mouth spread",
+		"oldEngName":"Mouth spread"
+    },
+
+	{
+		"japName":"歯無し上",
+		"newEngName":"No tooth above",
+		"oldEngName":"No tooth above"
+    },
+
+	{
+		"japName":"歯無し下",
+		"newEngName":"Without teeth",
+		"oldEngName":"Without teeth"
+    },
+
+	{
+		"japName":"星目",
+		"newEngName":"Star eye",
+		"oldEngName":"Star eye"
+    },
+
+	{
+		"japName":"はぁと",
+		"newEngName":"Heart",
+		"oldEngName":"Well"
+    },
+
+	{
+		"japName":"瞳小",
+		"newEngName":"Pupil",
+		"oldEngName":"Pupil"
+    },
+
+	{
+		"japName":"瞳縦潰れ",
+		"newEngName":"Eye puncture collapsed",
+		"oldEngName":"Eye puncture collapsed"
+    },
+
+	{
+		"japName":"光下",
+		"newEngName":"Under the light",
+		"oldEngName":"Under the light"
+    },
+
+	{
+		"japName":"恐ろしい子！",
+		"newEngName":"A terrible child!",
+		"oldEngName":"A terrible child!"
+    },
+
+	{
+		"japName":"真面目",
+		"newEngName":"Serious",
+		"oldEngName":"Serious"
+    },
+
+	{
+		"japName":"困る",
+		"newEngName":"Sadness",
+		"oldEngName":"Be troubled"
+    },
+
+	{
+		"japName":"にこり",
+		"newEngName":"Cheerful",
+		"oldEngName":"A lump"
+    },
+
+	{
+		"japName":"怒り",
+		"newEngName":"Anger",
+		"oldEngName":"Anger"
+    },
+
+	{
+		"japName":"上",
+		"newEngName":"Upper",
+		"oldEngName":"on"
+    },
+
+	{
+		"japName":"下",
+		"newEngName":"Lower",
+		"oldEngName":"under"
+    },
+
+	{
+		"japName":"メガネ",
+		"newEngName":"Glasses",
+		"oldEngName":"Glasses"
+    },
+
+	{
+		"japName":"輪郭",
+		"newEngName":"Contour",
+		"oldEngName":"Contour"
+    },
+
+	{
+		"japName":"照れ",
+		"newEngName":"Blush",
+		"oldEngName":"Blunder"
+    },
+
+	{
+		"japName":"照れ4",
+		"newEngName":"Bashi 4",
+		"oldEngName":"Bashi 4"
+    },
+
+	{
+		"japName":"照れ5",
+		"newEngName":"Bashi 5",
+		"oldEngName":"CasualSlacks"
+    },
+
+	{
+		"japName":"照れ6",
+		"newEngName":"Bashi 6",
+		"oldEngName":"Bashi 6"
+    },
+
+	{  
+		"japName":"照れ7",
+		"newEngName":"Blemish 7",
+		"oldEngName":"Blemish 7"
+    },
+
+	{
+		"japName":"涙",
+		"newEngName":"Tears",
+		"oldEngName":"Tears"
+    },
+
+	{
+		"japName":"涙大",
+		"newEngName":"Big",
+		"oldEngName":"Big"
+    },
+
+	{
+		"japName":"涙2",
+		"newEngName":"Tears 2",
+		"oldEngName":"Tears 2"
+    },
+
+	{
+		"japName":"汗",
+		"newEngName":"Sweat",
+		"oldEngName":"Sweat"
+    },
+
+	{
+		"japName":"汗大",
+		"newEngName":"Sweaty",
+		"oldEngName":"Sweaty"
+    },
+
+	{
+		"japName":"暗い",
+		"newEngName":"dark",
+		"oldEngName":"dark"
+    },
+
+	{
+		"japName":"暗い2",
+		"newEngName":"Dark 2",
+		"oldEngName":"Dark 2"
+    },
+
+	{ 
+		"japName":"暗い3",
+		"newEngName":"Dark 3",
+		"oldEngName":"Dark 3"
+    },
+
+	{
+		"japName":"メガネ小",
+		"newEngName":"Small eyeglasses",
+		"oldEngName":"Small eyeglasses"
+    },
+
+	{    
+		"japName":"葉小",
+		"newEngName":"Leaf small",
+		"oldEngName":"Leaf small"
+    },
+	
+	{ 
+		"japName":"ヒレ",
+		"newEngName":"Fin",
+		"oldEngName":"Fin"
+    },
+
+	{
+		"japName":"驚き",
+		"newEngName":"Surprise",
+		"oldEngName":"Surprise"
+    },
+
+	{
+		"japName":"挑発",
+		"newEngName":"Provocation",
+		"oldEngName":"Provocation"
+    },
+
+	{
+		"japName":"影",
+		"newEngName":"Shadow",
+		"oldEngName":"Shadow"
+    },
+
+	{
+		"japName":"反射",
+		"newEngName":"Reflection",
+		"oldEngName":"Reflection"
+    },
+
+	{
+		"japName":"反射下げ",
+		"newEngName":"ReflectionLower",
+		"oldEngName":"ReflectionLower"
+    },
+
+	{
+		"japName":"怒り漫符",
+		"newEngName":"Anger",
+		"oldEngName":"Anger"
+    },
+
+	{
+		"japName":"グルグル",
+		"newEngName":"Swirl",
+		"oldEngName":"Swirl"
+    },
+
+	{ 
+		"japName":"くやしい",
+		"newEngName":"Mad",
+		"oldEngName":"Mad"
+    },
+
+	{
+		"japName":"あぅう",
+		"newEngName":"Oh no!",
+		"oldEngName":"Oh no!"
+    },
+
+	{ 
+		"japName":"なめる",
+		"newEngName":"Lick",
+		"oldEngName":"Lick"
+    },
+
+	{
+		"japName":"てへっ",
+		"newEngName":"TehHeh",
+		"oldEngName":"TehHeh"
+    },
+
+	{
+		"japName":"とほほ",
+		"newEngName":"Tears",
+		"oldEngName":"Tears"
+    },
+
+	{
+		"japName":"なぬ！",
+		"newEngName":"Confuse",
+		"oldEngName":"Confuse"
+    },
+
+	{
+		"japName":"にしわ",
+		"newEngName":"Wrinkle",
+		"oldEngName":"Wrinkle"
+    },
+
+	{
+		"japName":"ハート",
+		"newEngName":"Heart",
+		"oldEngName":"Heart"
+    },
+
+	{
+		"japName":"はちゅ",
+		"newEngName":"Hachu",
+		"oldEngName":"Hachu"
+    },
+
+	{
+		"japName":"ぱんつ",
+		"newEngName":"Pants",
+		"oldEngName":"Pants"
+    },
+
+	{
+		"japName":"ふにゃ",
+		"newEngName":"Sleepy",
+		"oldEngName":"Sleepy"
+    },
+
+	{
+		"japName":"まつげヒレ",
+		"newEngName":"Eyelash",
+		"oldEngName":"Eyelash"
+    },
+
+	{
+		"japName":"めがね",
+		"newEngName":"Glasses",
+		"oldEngName":"Glasses"
+    },
+
+	{
+		"japName":"イヒヒ",
+		"newEngName":"IhHiHi",
+		"oldEngName":"IhHiHi"
+    },
+
+	{ 
+		"japName":"ガール",
+		"newEngName":"Girl",
+		"oldEngName":"Girl"
+    },
+
+	{
+		"japName":"悲しい",
+		"newEngName":"Sad",
+		"oldEngName":"Sad"
+    },
+
+	{
+		"japName":"がーん",
+		"newEngName":"Gloom",
+		"oldEngName":"Gloom"
+    },
+
+	{
+		"japName":"下あご",
+		"newEngName":"Chin",
+		"oldEngName":"Chin"
+    },
+
+	{
+		"japName":"涙袋",
+		"newEngName":"Puffy Eyes",
+		"oldEngName":"Puffy Eyes"
+    },
+
+	{
+		"japName":"笑う",
+		"newEngName":"Laugh",
+		"oldEngName":"Laugh"
+    },
+
+	{
+		"japName":"瞳孔",
+		"newEngName":"Pupil",
+		"oldEngName":"Pupil"
+    },
+
+	{
+		"japName":"くっ",
+		"newEngName":"Ugh",
+		"oldEngName":"Ugh"
+    },
+
+	{
+		"japName":"上げ",
+		"newEngName":"Raise",
+		"oldEngName":"Raise"
+    },
+
+	{
+		"japName":"がおー",
+		"newEngName":"Roar",
+		"oldEngName":"Roar"
+    },
+
+	{
+		"japName":"下げ",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{
+		"japName":"下半",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{
+		"japName":"下顎",
+		"newEngName":"Chin",
+		"oldEngName":"Chin"
+    },
+
+	{
+		"japName":"はんっ！",
+		"newEngName":"Fool",
+		"oldEngName":"Fool"
+    },
+
+	{
+		"japName":"ふーん",
+		"newEngName":"Fuun",
+		"oldEngName":"Fuun"
+    },
+
+	{
+		"japName":"こっちみんな",
+		"newEngName":"Do not look at me",
+		"oldEngName":"Do not look at me"
+    },
+
+	{
+		"japName":"うるる",
+		"newEngName":"Cry",
+		"oldEngName":"Cry"
+    },
+
+	{
+		"japName":"うわぁ",
+		"newEngName":"Wow",
+		"oldEngName":"Wow"
+    },
+
+	{
+		"japName":"うへぁ",
+		"newEngName":"Well",
+		"oldEngName":"Well"
+    },
+
+	{ 	"うへ": "Uueh",
+		"japName":"うへ",
+		"newEngName":"Uueh",
+		"oldEngName":"Uueh"
+    },
+
+	{
+		"japName":"えー",
+		"newEngName":"e-",
+		"oldEngName":"e-"
+    },
+
+	{
+		"japName":"上半",
+		"newEngName":"Upper",
+		"oldEngName":"Upper"
+    },
+
+	{
+		"japName":"ロー",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ブラ",
+		"newEngName":"Bra",
+		"oldEngName":"Bra"
+    },
+
+	{
+		"japName":"あご",
+		"newEngName":"Jaw",
+		"oldEngName":"Jaw"
+    },
+
+	{
+		"japName":"葉",
+		"newEngName":"Leaf",
+		"oldEngName":"Leaf"
+    },
+
+	{
+		"japName":"燕",
+		"newEngName":"Swallow",
+		"oldEngName":"Swallow"
+    },
+
+	{
+		"japName":"歯",
+		"newEngName":"Teeth",
+		"oldEngName":"Teeth"
+    },
+
+	{
+		"japName":"染",
+		"newEngName":"Blush",
+		"oldEngName":"Blush"
+    },
+
+	{
+		"japName":"悪",
+		"newEngName":"Evil",
+		"oldEngName":"Evil"
+    },
+
+	{
+		"japName":"怒",
+		"newEngName":"Anger",
+		"oldEngName":"Anger"
+    },
+
+	{
+		"japName":"愛",
+		"newEngName":"Love",
+		"oldEngName":"Love"
+    },
+
+	{
+		"japName":"星",
+		"newEngName":"Star",
+		"oldEngName":"Star"
+    },
+
+	{
+		"japName":"強",
+		"newEngName":"Force",
+		"oldEngName":"Force"
+    },
+
+	{
+		"japName":"広",
+		"newEngName":"Wide",
+		"oldEngName":"Wide"
+    },
+
+	{
+		"japName":"幅",
+		"newEngName":"Wide",
+		"oldEngName":"Wide"
+    },
+
+	{
+		"japName":"小",
+		"newEngName":"Small",
+		"oldEngName":"Small"
+    },
+	
+	{
+		"japName":"唇",
+		"newEngName":"Lips",
+		"oldEngName":"Lips"
+    },
+	
+	{	
+		"japName":"太",
+		"newEngName":"Wide",
+		"oldEngName":"Wide"
+    },
+
+	{
+		"japName":"央ベー",
+		"newEngName":"Center",
+		"oldEngName":"Center"
+    },
+
+	{
+		"japName":"奥",
+		"newEngName":"Back",
+		"oldEngName":"Back"
+    },
+
+	{
+		"japName":"一",
+		"newEngName":"One",
+		"oldEngName":"One"
+    },
+
+	{
+		"japName":"・",
+		"newEngName":"*",
+		"oldEngName":"*"
+    },
+
+	{
+		"japName":"ロ",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{	
+		"japName":"ハ",
+		"newEngName":"Higher",
+		"oldEngName":"Higher"
+    },
+
+	{
+		"japName":"を",
+		"newEngName":"wo",
+		"oldEngName":"wo"
+    },
+
+	{
+		"japName":"み",
+		"newEngName":"Body",
+		"oldEngName":"Body"
+    },
+
+	{
+		"japName":"並",
+		"newEngName":"Casual",
+		"oldEngName":"Casual"
+    },
+
+	{
+		"japName":"べ",
+		"newEngName":"Beh",
+		"oldEngName":"Beh"
+    },
+
+	{
+		"japName":"び",
+		"newEngName":"FacialExpression",
+		"oldEngName":"FacialExpression"
+    },
+
+	{
+		"japName":"の",
+		"newEngName":"no",
+		"oldEngName":"no"
+    },
+
+	{
+		"japName":"っ",
+		"newEngName":"",
+		"oldEngName":""
+    },
+
+	{
+		"japName":"し",
+		"newEngName":"",
+		"oldEngName":""
+    },
+
+	{	
+		"japName":"◎",
+		"newEngName":"@",
+		"oldEngName":"@"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"、",
+		"newEngName":", ",
+		"oldEngName":", "
+    },
+
+	{
+		"japName":"＜",
+		"newEngName":"<",
+		"oldEngName":"<"
+    },
+
+	{
+		"japName":"＞",
+		"newEngName":">",
+		"oldEngName":">"
+    },
+
+	{
+		"japName":"みみ",
+		"newEngName":"Ear",
+		"oldEngName":"Ear"
+    },
+
+	{
+		"japName":"ホシ",
+		"newEngName":"Star",
+		"oldEngName":"Star"
+    },
+
+	{
+		"japName":"両八",
+		"newEngName":"Both",
+		"oldEngName":"Both"
+    },
+
+	{
+		"japName":"八重",
+		"newEngName":"Double",
+		"oldEngName":"Double"
+    },
+
+	{
+		"japName":"睨む",
+		"newEngName":"Glaring",
+		"oldEngName":"Glaring"
+    },
+
+	{
+		"japName":"ヌル",
+		"newEngName":"Oiled",
+		"oldEngName":"Oiled"
+    },
+
+	{
+		"japName":"ＩＫ",
+		"newEngName":"IK",
+		"oldEngName":"IK"
+    },
+
+	{
+		"japName":"鎖骨",
+		"newEngName":"Clavicle",
+		"oldEngName":"Clavicle"
+    },
+
+	{
+		"japName":"風見",
+		"newEngName":"Kazami",
+		"oldEngName":"Kazami"
+    },
+	
+	{
+		"japName":"細い",
+		"newEngName":"Thinner",
+		"oldEngName":"Thinner"
+    },
+
+	{
+		"japName":"縮小",
+		"newEngName":"Shrink",
+		"oldEngName":"Shrink"
+    },
+
+	{
+		"japName":"眼鏡",
+		"newEngName":"Glasses",
+		"oldEngName":"Glasses"
+    },
+
+	{	
+		"japName":"真面",
+		"newEngName":"Serious",
+		"oldEngName":"Serious"
+    },
+
+	{
+		"japName":"眉尻",
+		"newEngName":"Eyebrow",
+		"oldEngName":"Eyebrow"
+    },
+	
+	{
+		"japName":"眉ヘ",
+		"newEngName":"Eyebrow",
+		"oldEngName":"Eyebrow"
+    },
+	
+	{	
+		"japName":"白蓮",
+		"newEngName":"Byakuren",
+		"oldEngName":"Byakuren"
+    },
+	
+	{
+		"japName":"狭く",
+		"newEngName":"Narrowly",
+		"oldEngName":"Narrowly"
+    },
+
+	{
+		"japName":"無し",
+		"newEngName":"None",
+		"oldEngName":"None"
+    },
+
+	{
+		"japName":"潰れ",
+		"newEngName":"Collapse",
+		"oldEngName":"Collapse"
+    },
+
+	{
+		"japName":"測定",
+		"newEngName":"Measurementhh",
+		"oldEngName":"Measurement"
+    },
+
+	{
+		"japName":"泣き",
+		"newEngName":"Cry",
+		"oldEngName":"Cry"
+    },
+	
+	{
+		"japName":"永琳",
+		"newEngName":"Eirin",
+		"oldEngName":"Eirin"
+    },
+
+	{
+		"japName":"染め",
+		"newEngName":"Blush",
+		"oldEngName":"Blush"
+    },
+
+	{
+		"japName":"星熊",
+		"newEngName":"Hoshiguma",
+		"oldEngName":"Hoshiguma"
+    },
+
+	{
+		"japName":"暗く",
+		"newEngName":"Deep",
+		"oldEngName":"Deep"
+    },
+
+	{
+		"japName":"暗い",
+		"newEngName":"Deep",
+		"oldEngName":"Deep"
+    },
+
+	{
+		"japName":"憂い",
+		"newEngName":"Grieving",
+		"oldEngName":"Grieving"
+    },
+
+	{
+		"japName":"感情",
+		"newEngName":"Emotion",
+		"oldEngName":"Emotion"
+    },
+
+	{
+		"japName":"怒る",
+		"newEngName":"GetAngry",
+		"oldEngName":"GetAngry"
+    },
+
+	{
+		"japName":"幽香",
+		"newEngName":"Yuuka",
+		"oldEngName":"Yuuka"
+    },
+
+	{
+		"japName":"困り",
+		"newEngName":"Troubled",
+		"oldEngName":"Troubled"
+    },
+
+	{
+		"japName":"器具",
+		"newEngName":"Apparatus",
+		"oldEngName":"Apparatus"
+    },
+
+	{	
+		"japName":"噛む",
+		"newEngName":"Bite",
+		"oldEngName":"Bite"
+    },
+
+	{
+		"japName":"咲夜",
+		"newEngName":"Sakuya",
+		"oldEngName":"Sakuya"
+    },
+
+	{
+		"japName":"和み",
+		"newEngName":"Calm",
+		"oldEngName":"Calm"
+    },
+
+	{	
+		"japName":"呆れ",
+		"newEngName":"Amazement",
+		"oldEngName":"Amazement"
+    },
+
+	{
+		"japName":"向日",
+		"newEngName":"Sunrise",
+		"oldEngName":"Sunrise"
+    },
+	
+	{
+		"japName":"勇儀",
+		"newEngName":"Yuugi",
+		"oldEngName":"Yuugi"
+    },
+	
+	{
+		"japName":"両目",
+		"newEngName":"Eyes",
+		"oldEngName":"Eyes"
+    },
+
+	{	
+		"japName":"八雲",
+		"newEngName":"Yakumo",
+		"oldEngName":"Yakumo"
+    },
+
+	{
+		"japName":"八意",
+		"newEngName":"Yagokoro",
+		"oldEngName":"Yagokoro"
+    },
+
+	{	
+		"japName":"八坂",
+		"newEngName":"Yasaka",
+		"oldEngName":"Yasaka"
+    },
+
+	{
+		"japName":"不満",
+		"newEngName":"Dissatisfied",
+		"oldEngName":"Dissatisfied"
+    },
+
+	{	
+		"japName":"イー",
+		"newEngName":"Eee",
+		"oldEngName":"E"
+    },
+
+	{
+		"japName":"バフ",
+		"newEngName":"Buff",
+		"oldEngName":"Buff"
+    },
+
+	{	
+		"japName":"タン",
+		"newEngName":"Tan",
+		"oldEngName":"Tan"
+    },
+
+	{
+		"japName":"ガタ",
+		"newEngName":"Looseness",
+		"oldEngName":"Looseness"
+    },
+
+	{
+		"japName":"オフ",
+		"newEngName":"Off",
+		"oldEngName":"Off"
+    },
+
+	{
+		"japName":"ぽっ",
+		"newEngName":"Cruciform",
+		"oldEngName":"Pop"
+    },
+	
+	{
+		"japName":"ぺろ",
+		"newEngName":"Lick",
+		"oldEngName":"Beloved"
+    },
+
+	{
+		"japName":"べー",
+		"newEngName":"TongueOut",
+		"oldEngName":"Baie"
+    },
+	
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+	
+	{
+		"japName":"ぷく",
+		"newEngName":"Grow",
+		"oldEngName":"To wipe"
+    },
+	
+	{
+		"japName":"ぷぅ",
+		"newEngName":"Inflate",
+		"oldEngName":"Puu"
+    },
+	
+	{
+		"japName":"はぁ",
+		"newEngName":"Haa",
+		"oldEngName":"Ha"
+    },
+	
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ぬる",
+		"newEngName":"Oiled",
+		"oldEngName":"To paint"
+    },
+
+	{
+		"japName":"にこ",
+		"newEngName":"Smile",
+		"oldEngName":"Where"
+    },
+
+	{
+		"japName":"なめ",
+		"newEngName":"Lick",
+		"oldEngName":"Licking"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+	
+	{
+		"japName":"なぬ",
+		"newEngName":"None",
+		"oldEngName":"None"
+    },
+
+	{
+		"japName":"なし",
+		"newEngName":"None",
+		"oldEngName":"None"
+    },
+
+	{
+		"japName":"とげ",
+		"newEngName":"Thorn",
+		"oldEngName":"Thorn"
+    },
+
+	{
+		"japName":"てへ",
+		"newEngName":"TehHeh",
+		"oldEngName":"To"
+    },
+
+	{
+		"japName":"つり",
+		"newEngName":"Slant",
+		"oldEngName":"Fishing"
+    },
+
+	{	
+		"japName":"ベー",
+		"newEngName":"Droopy",
+		"oldEngName":"Who are"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"たか",
+		"newEngName":"Falcon",
+		"oldEngName":"Falcon"
+    },
+
+	{
+		"japName":"すじ",
+		"newEngName":"Sushi",
+		"oldEngName":"Sushi"
+    },
+
+	{
+		"japName":"じと",
+		"newEngName":"Tooth",
+		"oldEngName":"Tooth"
+    },
+
+	{	"しらけ": "Slurping",
+		"japName":"しらけ",
+		"newEngName":"Slurping",
+		"oldEngName":"Slurping"
+    },
+	
+	{
+		"japName":"青ざめ",
+		"newEngName":"Pale",
+		"oldEngName":"Paleness"
+    },
+	
+	{
+		"japName":"西行寺",
+		"newEngName":"Saigyouji",
+		"oldEngName":"Saigoji"
+    },
+
+	{
+		"japName":"絆創膏",
+		"newEngName":"Bandage",
+		"oldEngName":"Bandage"
+    },
+	
+	{
+		"japName":"細める",
+		"newEngName":"Tighten",
+		"oldEngName":"Narrow down"
+    },
+	
+	{
+		"japName":"神奈子",
+		"newEngName":"Kanako",
+		"oldEngName":"Kanako Kanako"
+    },
+	
+	{
+		"japName":"幽々子",
+		"newEngName":"Yuyuko",
+		"oldEngName":"Yuiko"
+    },
+	
+	{
+		"japName":"小野塚",
+		"newEngName":"Onozuka",
+		"oldEngName":"Onozuka"
+    },
+	
+	{
+		"japName":"小悪魔",
+		"newEngName":"Koakuma",
+		"oldEngName":"Small devil"
+    },
+	
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+	
+	{
+		"japName":"十六夜",
+		"newEngName":"Izayoi",
+		"oldEngName":"Sixteen nights"
+    },
+	
+	{
+		"japName":"不機嫌",
+		"newEngName":"Bad mood",
+		"oldEngName":"Bad mood"
+    },
+
+	{
+		"japName":"マント",
+		"newEngName":"Cloak",
+		"oldEngName":"Cloak"
+    },
+
+	{
+		"japName":"メイコ",
+		"newEngName":"Meiko",
+		"oldEngName":"Meiko"
+    },
+
+	{
+		"japName":"マジデ",
+		"newEngName":"Really",
+		"oldEngName":"Majde"
+    },
+
+	{
+		"japName":"ガーン",
+		"newEngName":"Gloom",
+		"oldEngName":"Guan"
+    },
+
+	{
+		"japName":"カーキ",
+		"newEngName":"Khaki",
+		"oldEngName":"Khaki"
+    },
+
+	{
+		"japName":"ヌルテカ",
+		"newEngName":"Oiled",
+		"oldEngName":"Nurutorka"
+    },
+
+	{
+		"japName":"シイタケ",
+		"newEngName":"Cross Star",
+		"oldEngName":"Shiitake mushroom"
+    },
+
+	{
+		"japName":"ひらひら",
+		"newEngName":"Flutter",
+		"oldEngName":"Flickering"
+    },
+	
+	{
+		"japName":"ブラジャー",
+		"newEngName":"Bra",
+		"oldEngName":"Bra"
+    },
+
+	{
+		"japName":"ウインク２",
+		"newEngName":"Wink 2",
+		"oldEngName":"Wink 2"
+    },
+	
+	{
+		"japName":"ウインク右",
+		"newEngName":"Wink Right",
+		"oldEngName":"Wink Right"
+    },
+	
+	{
+		"japName":"アイボリー",
+		"newEngName":"Ivory",
+		"oldEngName":"Ivory"
+    },
+	
+	{
+		"japName":"ウインク２右",
+		"newEngName":"Wink 2 Right",
+		"oldEngName":"Wink 2 Right"
+    },
+		{
+		"japName":"イヒヒ",
+		"newEngName":"IhHiHi",
+		"oldEngName":"IhHiHi"
+    },
+
+	{ 
+		"japName":"ガール",
+		"newEngName":"Girl",
+		"oldEngName":"Girl"
+    },
+
+	{
+		"japName":"悲しい",
+		"newEngName":"Sad",
+		"oldEngName":"Sad"
+    },
+
+	{
+		"japName":"がーん",
+		"newEngName":"Gloom",
+		"oldEngName":"Gloom"
+    },
+
+	{
+		"japName":"下あご",
+		"newEngName":"Chin",
+		"oldEngName":"Chin"
+    },
+
+	{
+		"japName":"涙袋",
+		"newEngName":"Puffy Eyes",
+		"oldEngName":"Puffy Eyes"
+    },
+
+	{
+		"japName":"笑う",
+		"newEngName":"Laugh",
+		"oldEngName":"Laugh"
+    },
+
+	{
+		"japName":"瞳孔",
+		"newEngName":"Pupil",
+		"oldEngName":"Pupil"
+    },
+
+	{
+		"japName":"くっ",
+		"newEngName":"Ugh",
+		"oldEngName":"Ugh"
+    },
+
+	{
+		"japName":"上げ",
+		"newEngName":"Raise",
+		"oldEngName":"Raise"
+    },
+
+	{
+		"japName":"がおー",
+		"newEngName":"Roar",
+		"oldEngName":"Roar"
+    },
+
+	{
+		"japName":"下げ",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{
+		"japName":"下半",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{
+		"japName":"下顎",
+		"newEngName":"Chin",
+		"oldEngName":"Chin"
+    },
+
+	{
+		"japName":"はんっ！",
+		"newEngName":"Fool",
+		"oldEngName":"Fool"
+    },
+
+	{
+		"japName":"ふーん",
+		"newEngName":"Fuun",
+		"oldEngName":"Fuun"
+    },
+
+	{
+		"japName":"こっちみんな",
+		"newEngName":"Do not look at me",
+		"oldEngName":"Do not look at me"
+    },
+
+	{
+		"japName":"うるる",
+		"newEngName":"Cry",
+		"oldEngName":"Cry"
+    },
+
+	{
+		"japName":"うわぁ",
+		"newEngName":"Wow",
+		"oldEngName":"Wow"
+    },
+
+	{
+		"japName":"うへぁ",
+		"newEngName":"Well",
+		"oldEngName":"Well"
+    },
+
+	{ 	"うへ": "Uueh",
+		"japName":"うへ",
+		"newEngName":"Uueh",
+		"oldEngName":"Uueh"
+    },
+
+	{
+		"japName":"えー",
+		"newEngName":"e-",
+		"oldEngName":"e-"
+    },
+
+	{
+		"japName":"上半",
+		"newEngName":"Upper",
+		"oldEngName":"Upper"
+    },
+
+	{
+		"japName":"ロー",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ブラ",
+		"newEngName":"Bra",
+		"oldEngName":"Bra"
+    },
+
+	{
+		"japName":"あご",
+		"newEngName":"Jaw",
+		"oldEngName":"Jaw"
+    },
+
+	{
+		"japName":"葉",
+		"newEngName":"Leaf",
+		"oldEngName":"Leaf"
+    },
+
+	{
+		"japName":"燕",
+		"newEngName":"Swallow",
+		"oldEngName":"Swallow"
+    },
+
+	{
+		"japName":"歯",
+		"newEngName":"Teeth",
+		"oldEngName":"Teeth"
+    },
+
+	{
+		"japName":"染",
+		"newEngName":"Blush",
+		"oldEngName":"Blush"
+    },
+
+	{
+		"japName":"悪",
+		"newEngName":"Evil",
+		"oldEngName":"Evil"
+    },
+
+	{
+		"japName":"怒",
+		"newEngName":"Anger",
+		"oldEngName":"Anger"
+    },
+
+	{
+		"japName":"愛",
+		"newEngName":"Love",
+		"oldEngName":"Love"
+    },
+
+	{
+		"japName":"星",
+		"newEngName":"Star",
+		"oldEngName":"Star"
+    },
+
+	{
+		"japName":"強",
+		"newEngName":"Force",
+		"oldEngName":"Force"
+    },
+
+	{
+		"japName":"広",
+		"newEngName":"Wide",
+		"oldEngName":"Wide"
+    },
+
+	{
+		"japName":"幅",
+		"newEngName":"Wide",
+		"oldEngName":"Wide"
+    },
+
+	{
+		"japName":"小",
+		"newEngName":"Small",
+		"oldEngName":"Small"
+    },
+	
+	{
+		"japName":"唇",
+		"newEngName":"Lips",
+		"oldEngName":"Lips"
+    },
+	
+	{	
+		"japName":"太",
+		"newEngName":"Wide",
+		"oldEngName":"Wide"
+    },
+
+	{
+		"japName":" 央ベー",
+		"newEngName":"Center",
+		"oldEngName":"Center"
+    },
+
+	{
+		"japName":"奥",
+		"newEngName":"Back",
+		"oldEngName":"Back"
+    },
+
+	{
+		"japName":"一",
+		"newEngName":"One",
+		"oldEngName":"One"
+    },
+
+	{
+		"japName":"・",
+		"newEngName":"*",
+		"oldEngName":"*"
+    },
+
+	{
+		"japName":"ロ",
+		"newEngName":"Lower",
+		"oldEngName":"Lower"
+    },
+
+	{	
+		"japName":"ハ",
+		"newEngName":"Higher",
+		"oldEngName":"Higher"
+    },
+
+	{
+		"japName":"を",
+		"newEngName":"wo",
+		"oldEngName":"wo"
+    },
+
+	{
+		"japName":"み",
+		"newEngName":"Body",
+		"oldEngName":"Body"
+    },
+
+	{
+		"japName":"並",
+		"newEngName":"Casual",
+		"oldEngName":"Casual"
+    },
+
+	{
+		"japName":"べ",
+		"newEngName":"Beh",
+		"oldEngName":"Beh"
+    },
+
+	{
+		"japName":"び",
+		"newEngName":"FacialExpression",
+		"oldEngName":"FacialExpression"
+    },
+
+	{
+		"japName":"の",
+		"newEngName":"no",
+		"oldEngName":"no"
+    },
+
+	{
+		"japName":"っ",
+		"newEngName":"",
+		"oldEngName":""
+    },
+
+	{
+		"japName":"し",
+		"newEngName":"",
+		"oldEngName":""
+    },
+
+	{	
+		"japName":"◎",
+		"newEngName":"@",
+		"oldEngName":"@"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"、",
+		"newEngName":", ",
+		"oldEngName":", "
+    },
+
+	{
+		"japName":"＜",
+		"newEngName":"<",
+		"oldEngName":"<"
+    },
+
+	{
+		"japName":"＞",
+		"newEngName":">",
+		"oldEngName":">"
+    },
+
+	{
+		"japName":"みみ",
+		"newEngName":"Ear",
+		"oldEngName":"Ear"
+    },
+
+	{
+		"japName":"ホシ",
+		"newEngName":"Star",
+		"oldEngName":"Star"
+    },
+
+	{
+		"japName":"両八",
+		"newEngName":"Both",
+		"oldEngName":"Both"
+    },
+
+	{
+		"japName":"八重",
+		"newEngName":"Double",
+		"oldEngName":"Double"
+    },
+
+	{
+		"japName":"睨む",
+		"newEngName":"Glaring",
+		"oldEngName":"Glaring"
+    },
+
+	{
+		"japName":"ヌル",
+		"newEngName":"Oiled",
+		"oldEngName":"Oiled"
+    },
+
+	{
+		"japName":"ＩＫ",
+		"newEngName":"IK",
+		"oldEngName":"IK"
+    },
+
+	{
+		"japName":"鎖骨",
+		"newEngName":"Clavicle",
+		"oldEngName":"Clavicle"
+    },
+
+	{
+		"japName":"風見",
+		"newEngName":"Kazami",
+		"oldEngName":"Kazami"
+    },
+	
+	{
+		"japName":"細い",
+		"newEngName":"Thinner",
+		"oldEngName":"Thinner"
+    },
+
+	{
+		"japName":"縮小",
+		"newEngName":"Shrink",
+		"oldEngName":"Shrink"
+    },
+
+	{
+		"japName":"眼鏡",
+		"newEngName":"Glasses",
+		"oldEngName":"Glasses"
+    },
+
+	{	
+		"japName":"真面",
+		"newEngName":"Serious",
+		"oldEngName":"Serious"
+    },
+
+	{
+		"japName":"眉尻",
+		"newEngName":"Eyebrow",
+		"oldEngName":"Eyebrow"
+    },
+	
+	{
+		"japName":"眉ヘ",
+		"newEngName":"Eyebrow",
+		"oldEngName":"Eyebrow"
+    },
+	
+	{	
+		"japName":"白蓮",
+		"newEngName":"Byakuren",
+		"oldEngName":"Byakuren"
+    },
+	
+	{
+		"japName":"狭く",
+		"newEngName":"Narrowly",
+		"oldEngName":"Narrowly"
+    },
+
+	{
+		"japName":"無し",
+		"newEngName":"None",
+		"oldEngName":"None"
+    },
+
+	{
+		"japName":"潰れ",
+		"newEngName":"Collapse",
+		"oldEngName":"Collapse"
+    },
+
+	{
+		"japName":"測定",
+		"newEngName":"Measurementhh",
+		"oldEngName":"Measurement"
+    },
+
+	{
+		"japName":"泣き",
+		"newEngName":"Cry",
+		"oldEngName":"Cry"
+    },
+	
+	{
+		"japName":"永琳",
+		"newEngName":"Eirin",
+		"oldEngName":"Eirin"
+    },
+
+	{
+		"japName":"染め",
+		"newEngName":"Blush",
+		"oldEngName":"Blush"
+    },
+
+	{
+		"japName":"星熊",
+		"newEngName":"Hoshiguma",
+		"oldEngName":"Hoshiguma"
+    },
+
+	{
+		"japName":"暗く",
+		"newEngName":"Deep",
+		"oldEngName":"Deep"
+    },
+
+	{
+		"japName":"暗い",
+		"newEngName":"Deep",
+		"oldEngName":"Deep"
+    },
+
+	{
+		"japName":"憂い",
+		"newEngName":"Grieving",
+		"oldEngName":"Grieving"
+    },
+
+	{
+		"japName":"感情",
+		"newEngName":"Emotion",
+		"oldEngName":"Emotion"
+    },
+
+	{
+		"japName":"怒る",
+		"newEngName":"GetAngry",
+		"oldEngName":"GetAngry"
+    },
+
+	{
+		"japName":"幽香",
+		"newEngName":"Yuuka",
+		"oldEngName":"Yuuka"
+    },
+
+	{
+		"japName":"困り",
+		"newEngName":"Troubled",
+		"oldEngName":"Troubled"
+    },
+
+	{
+		"japName":"器具",
+		"newEngName":"Apparatus",
+		"oldEngName":"Apparatus"
+    },
+
+	{	
+		"japName":"噛む",
+		"newEngName":"Bite",
+		"oldEngName":"Bite"
+    },
+
+	{
+		"japName":"咲夜",
+		"newEngName":"Sakuya",
+		"oldEngName":"Sakuya"
+    },
+
+	{
+		"japName":"和み",
+		"newEngName":"Calm",
+		"oldEngName":"Calm"
+    },
+
+	{	
+		"japName":"呆れ",
+		"newEngName":"Amazement",
+		"oldEngName":"Amazement"
+    },
+
+	{
+		"japName":"向日",
+		"newEngName":"Sunrise",
+		"oldEngName":"Sunrise"
+    },
+	
+	{
+		"japName":"勇儀",
+		"newEngName":"Yuugi",
+		"oldEngName":"Yuugi"
+    },
+	
+	{
+		"japName":"両目",
+		"newEngName":"Eyes",
+		"oldEngName":"Eyes"
+    },
+
+	{	
+		"japName":"八雲",
+		"newEngName":"Yakumo",
+		"oldEngName":"Yakumo"
+    },
+
+	{
+		"japName":"八意",
+		"newEngName":"Yagokoro",
+		"oldEngName":"Yagokoro"
+    },
+
+	{	
+		"japName":"八坂",
+		"newEngName":"Yasaka",
+		"oldEngName":"Yasaka"
+    },
+
+	{	"不満": "Dissatisfied",
+		"japName":"不満",
+		"newEngName":"Dissatisfied",
+		"oldEngName":"Dissatisfied"
+    },
+
+	{	
+		"japName":"イー",
+		"newEngName":"Eee",
+		"oldEngName":"E"
+    },
+
+	{
+		"japName":"バフ",
+		"newEngName":"Buff",
+		"oldEngName":"Buff"
+    },
+
+	{	
+		"japName":"タン",
+		"newEngName":"Tan",
+		"oldEngName":"Tan"
+    },
+
+	{
+		"japName":"ガタ",
+		"newEngName":"Looseness",
+		"oldEngName":"Looseness"
+    },
+
+	{
+		"japName":"オフ",
+		"newEngName":"Off",
+		"oldEngName":"Off"
+    },
+
+	{
+		"japName":"ぽっ",
+		"newEngName":"Cruciform",
+		"oldEngName":"Pop"
+    },
+	
+	{
+		"japName":"ぺろ",
+		"newEngName":"Lick",
+		"oldEngName":"Beloved"
+    },
+
+	{
+		"japName":"べー",
+		"newEngName":"TongueOut",
+		"oldEngName":"Baie"
+    },
+	
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+	
+	{
+		"japName":"ぷく",
+		"newEngName":"Grow",
+		"oldEngName":"To wipe"
+    },
+	
+	{
+		"japName":"ぷぅ",
+		"newEngName":"Inflate",
+		"oldEngName":"Puu"
+    },
+	
+	{
+		"japName":"はぁ",
+		"newEngName":"Haa",
+		"oldEngName":"Ha"
+    },
+	
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ぬる",
+		"newEngName":"Oiled",
+		"oldEngName":"To paint"
+    },
+
+	{
+		"japName":"にこ",
+		"newEngName":"Smile",
+		"oldEngName":"Where"
+    },
+
+	{
+		"japName":"なめ",
+		"newEngName":"Lick",
+		"oldEngName":"Licking"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+	
+	{
+		"japName":"なぬ",
+		"newEngName":"None",
+		"oldEngName":"None"
+    },
+
+	{
+		"japName":"なし",
+		"newEngName":"None",
+		"oldEngName":"None"
+    },
+
+	{
+		"japName":"とげ",
+		"newEngName":"Thorn",
+		"oldEngName":"Thorn"
+    },
+
+	{
+		"japName":"てへ",
+		"newEngName":"TehHeh",
+		"oldEngName":"To"
+    },
+
+	{
+		"japName":"つり",
+		"newEngName":"Slant",
+		"oldEngName":"Fishing"
+    },
+
+	{	
+		"japName":"ベー",
+		"newEngName":"Droopy",
+		"oldEngName":"Who are"
+    },
+
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+
+	{
+		"japName":"たか",
+		"newEngName":"Falcon",
+		"oldEngName":"Falcon"
+    },
+
+	{
+		"japName":"すじ",
+		"newEngName":"Sushi",
+		"oldEngName":"Sushi"
+    },
+
+	{
+		"japName":"じと",
+		"newEngName":"Tooth",
+		"oldEngName":"Tooth"
+    },
+
+	{	"しらけ": "Slurping",
+		"japName":"しらけ",
+		"newEngName":"Slurping",
+		"oldEngName":"Slurping"
+    },
+	
+	{
+		"japName":"青ざめ",
+		"newEngName":"Pale",
+		"oldEngName":"Paleness"
+    },
+	
+	{
+		"japName":"西行寺",
+		"newEngName":"Saigyouji",
+		"oldEngName":"Saigoji"
+    },
+
+	{
+		"japName":"絆創膏",
+		"newEngName":"Bandage",
+		"oldEngName":"Bandage"
+    },
+	
+	{
+		"japName":"細める",
+		"newEngName":"Tighten",
+		"oldEngName":"Narrow down"
+    },
+	
+	{
+		"japName":"神奈子",
+		"newEngName":"Kanako",
+		"oldEngName":"Kanako Kanako"
+    },
+	
+	{
+		"japName":"幽々子",
+		"newEngName":"Yuyuko",
+		"oldEngName":"Yuiko"
+    },
+	
+	{
+		"japName":"小野塚",
+		"newEngName":"Onozuka",
+		"oldEngName":"Onozuka"
+    },
+	
+	{
+		"japName":"小悪魔",
+		"newEngName":"Koakuma",
+		"oldEngName":"Small devil"
+    },
+	
+	{
+		"japName":"ベー",
+		"newEngName":"Behh",
+		"oldEngName":"Behh"
+    },
+	
+	{
+		"japName":"十六夜",
+		"newEngName":"Izayoi",
+		"oldEngName":"Sixteen nights"
+    },
+	
+	{
+		"japName":"不機嫌",
+		"newEngName":"Bad mood",
+		"oldEngName":"Bad mood"
+    },
+
+	{
+		"japName":"マント",
+		"newEngName":"Cloak",
+		"oldEngName":"Cloak"
+    },
+
+	{
+		"japName":"メイコ",
+		"newEngName":"Meiko",
+		"oldEngName":"Meiko"
+    },
+
+	{
+		"japName":"マジデ",
+		"newEngName":"Really",
+		"oldEngName":"Majde"
+    },
+
+	{
+		"japName":"ガーン",
+		"newEngName":"Gloom",
+		"oldEngName":"Guan"
+    },
+
+	{
+		"japName":"カーキ",
+		"newEngName":"Khaki",
+		"oldEngName":"Khaki"
+    },
+
+	{
+		"japName":"ヌルテカ",
+		"newEngName":"Oiled",
+		"oldEngName":"Nurutorka"
+    },
+
+	{
+		"japName":"シイタケ",
+		"newEngName":"Cross Star",
+		"oldEngName":"Shiitake mushroom"
+    },
+
+	{
+		"japName":"ひらひら",
+		"newEngName":"Flutter",
+		"oldEngName":"Flickering"
+    },
+	
+	{
+		"japName":"ブラジャー",
+		"newEngName":"Bra",
+		"oldEngName":"Bra"
+    },
+
+	{
+		"japName":"ウインク２",
+		"newEngName":"Wink 2",
+		"oldEngName":"Wink 2"
+    },
+	
+	{
+		"japName":"ウインク右",
+		"newEngName":"Wink Right",
+		"oldEngName":"Wink Right"
+    },
+	
+	{
+		"japName":"アイボリー",
+		"newEngName":"Ivory",
+		"oldEngName":"Ivory"
+    },
+	
+	{
+		"japName":"ウインク２右",
+		"newEngName":"Wink 2 Right",
+		"oldEngName":"Wink 2 Right"
+    }
+	
+	
+]
+}
