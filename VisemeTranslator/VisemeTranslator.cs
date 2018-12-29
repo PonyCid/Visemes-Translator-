@@ -134,7 +134,6 @@ namespace VisemeTranslation
                 }//End Foreach
             }
             UnityEditorInternal.InternalEditorUtility.RequestScriptReload();
-
         }
 
         private void loadDictionary()
