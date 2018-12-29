@@ -125,7 +125,6 @@ namespace VisemeTranslation
                             case "blendShape.ん"://nn
                                 vrcPropertyName = "blendShape.vrc.v_nn";
                                 break;
-
                         }
 
                         if(vrcPropertyName.Length > 0)
