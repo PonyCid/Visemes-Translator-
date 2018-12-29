@@ -21,14 +21,17 @@ namespace VisemeTranslation
 {
     public class VisemeTranslation : EditorWindow
     {
+        private int windowSize = 180;
         private int columnWidth = 100;
         private int textColumnWidth = 180;
         private string dictionaryFileName = "dictionary.json";
         private TranslationData[] dictionary;
 
+        private bool vrChatVisemes = false;
+
         private AnimationClip clips;
         private AnimationClip visemes;
-
+        private Rect testButtonRect;
 
         [MenuItem("Window/Viseme Translator")]
         static void Init()
@@ -38,13 +41,17 @@ namespace VisemeTranslation
 
         private void translation(AnimationClip clip, AnimationClip viseme)
         {
-            this.clips = clip;
-            this.visemes = viseme;
+            loadDictionary();
 
-            if (clips == null)
+
+            if (clip == null)
             {
                 Debug.LogError("Clip is empty");
                 return;
+            }
+            else
+            {
+                this.clips = clip;
             }
 
             if (visemes == null)
@@ -52,49 +59,82 @@ namespace VisemeTranslation
                 Debug.LogError("Visemes animation is emtpy");
                 return;
             }
+            else
+            {
+                this.visemes = viseme;
+            }
 
-                loadDictionary();
-                if (dictionary == null)
+            if (dictionary == null)
+            {
+            Debug.LogError("The dictionary is empty.");
+                return;
+            }
+            else
+            {
+                EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(visemes);
+                foreach (EditorCurveBinding binding in bindings)
                 {
-                    Debug.LogError("The dictionary is empty.");
-                    return;
-                }
-                else
-                {
-                    EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(visemes);
-                    foreach (EditorCurveBinding binding in bindings)
+                    string newPropertyName = "";
+                    string oldPropertyName = "";
+                   
+
+                    foreach (TranslationData Translation in dictionary)
                     {
-                        AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
-                        clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
-                    }//End Foreach
-
-                    foreach (EditorCurveBinding binding in bindings)
-                    {
-
-                        string newPropertyName = "";
-                        string oldPropertyName = "";
-
-                        foreach (TranslationData Translation in dictionary)
+                        if (binding.propertyName == ("blendShape." + Translation.japName))
                         {
-                            if (binding.propertyName == ("blendShape." + Translation.japName))
-                            {
-                                newPropertyName = ("blendShape." + Translation.newEngName);
-                                oldPropertyName = ("blendShape." + Translation.oldEngName);
-                            }
+                            newPropertyName = ("blendShape." + Translation.newEngName);
+                            oldPropertyName = ("blendShape." + Translation.oldEngName);
+                        }
+                    }
+
+                    AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
+                    clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
+
+                    if (newPropertyName.Length > 0 && newPropertyName.Length > 0)
+                    {
+                    clips.SetCurve(binding.path, binding.type, newPropertyName, curve);
+
+                        if (!newPropertyName.Equals(oldPropertyName))
+                        {
+                            clips.SetCurve(binding.path, binding.type, oldPropertyName, curve);
+                        }
+                    }
+
+                    if (vrChatVisemes)
+                    {
+                        string vrcPropertyName = "";
+                        string tempo = binding.propertyName;
+
+                        switch (binding.propertyName)
+                        {
+                            case "blendShape.あ"://aa
+                                vrcPropertyName = "blendShape.vrc.v_aa";
+                                break;
+                            case "blendShape.い"://ih
+                                vrcPropertyName = "blendShape.vrc.v_ih";
+                                break;
+                            case "blendShape.う"://ou
+                                vrcPropertyName = "blendShape.vrc.v_ou";
+                                break;
+                            case "blendShape.え"://ee
+                                vrcPropertyName = "blendShape.vrc.v_ee";
+                                break;
+                            case "blendShape.お"://oh
+                                vrcPropertyName = "blendShape.vrc.v_oh";
+                                break;
+                            case "blendShape.ん"://nn
+                                vrcPropertyName = "blendShape.vrc.v_nn";
+                                break;
+
                         }
 
-                        if (newPropertyName.Length > 0 && newPropertyName.Length > 0)
+                        if(vrcPropertyName.Length > 0)
                         {
-                            AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
-                            clips.SetCurve(binding.path, binding.type, newPropertyName, curve);
-
-                            if (!newPropertyName.Equals(oldPropertyName))
-                            {
-                                clips.SetCurve(binding.path, binding.type, oldPropertyName, curve);
-                            }
+                            clips.SetCurve(binding.path, binding.type, vrcPropertyName, curve);
                         }
-                    }//End Foreach
-                }
+                    }
+                }//End Foreach
+            }
             UnityEditorInternal.InternalEditorUtility.RequestScriptReload();
 
         }
@@ -120,25 +160,32 @@ namespace VisemeTranslation
 
         void OnGUI()
         {
+
+            
+
+            GUILayout.BeginArea(new Rect(30, 10, windowSize, windowSize));
             GUILayout.Label("Your Clip:", GUILayout.Width(textColumnWidth));
             this.clips = (AnimationClip)EditorGUILayout.ObjectField(clips, typeof(AnimationClip), true, GUILayout.Width(textColumnWidth));
             GUILayout.Label("Your Viseme", GUILayout.Width(textColumnWidth));
             this.visemes = (AnimationClip)EditorGUILayout.ObjectField(visemes, typeof(AnimationClip), true, GUILayout.Width(textColumnWidth));
+
+            GUILayout.Label("", GUILayout.Width(textColumnWidth));
+            vrChatVisemes = GUILayout.Toggle(vrChatVisemes, "Create VrChat Visemes ?", GUILayout.Width(textColumnWidth));
             GUILayout.Label("", GUILayout.Width(textColumnWidth));
 
             if (GUILayout.Button("Do the translation", GUILayout.Width(textColumnWidth)))
             {
                 if (clips != null && visemes != null)
                 {
-                    this.translation(clips, visemes);
-                    this.ShowNotification(new GUIContent("Done"));
+                    translation(clips, visemes);
+                    ShowNotification(new GUIContent("Done") );
                 }
                 else
                 {
-                    this.ShowNotification(new GUIContent("Incorrect Input"));
+                    ShowNotification(new GUIContent("Incorrect Input"));
                 }
             }
-
+            GUILayout.EndArea();
         }
     }
 }
