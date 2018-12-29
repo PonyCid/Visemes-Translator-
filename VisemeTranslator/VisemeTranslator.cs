@@ -103,7 +103,6 @@ namespace VisemeTranslation
                     if (vrChatVisemes)
                     {
                         string vrcPropertyName = "";
-                        string tempo = binding.propertyName;
 
                         switch (binding.propertyName)
                         {
