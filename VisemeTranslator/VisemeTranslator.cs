@@ -163,7 +163,7 @@ namespace VisemeTranslation
             GUILayout.BeginArea(new Rect(30, 10, windowSize, windowSize));
             GUILayout.Label("Your Clip:", GUILayout.Width(textColumnWidth));
             this.clips = (AnimationClip)EditorGUILayout.ObjectField(clips, typeof(AnimationClip), true, GUILayout.Width(textColumnWidth));
-            GUILayout.Label("Your Viseme", GUILayout.Width(textColumnWidth));
+            GUILayout.Label("Visemes File", GUILayout.Width(textColumnWidth));
             this.visemes = (AnimationClip)EditorGUILayout.ObjectField(visemes, typeof(AnimationClip), true, GUILayout.Width(textColumnWidth));
 
             GUILayout.Label("", GUILayout.Width(textColumnWidth));
