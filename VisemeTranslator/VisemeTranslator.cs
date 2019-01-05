@@ -31,7 +31,6 @@ namespace VisemeTranslation
 
         private AnimationClip clips;
         private AnimationClip visemes;
-        private Rect testButtonRect;
 
         [MenuItem("Window/Viseme Translator")]
         static void Init()
