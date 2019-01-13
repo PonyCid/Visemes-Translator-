@@ -65,7 +65,7 @@ namespace VisemeTranslation
 
             if (dictionary == null)
             {
-            Debug.LogError("The dictionary is empty.");
+                Debug.LogError("The dictionary is empty.");
                 return;
             }
             else
