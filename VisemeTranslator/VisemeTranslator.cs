@@ -84,37 +84,37 @@ namespace VisemeTranslation
         }//End translation
 		
 	private void vrChatVisemes(){
-	EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(visemes);
-            foreach (EditorCurveBinding binding in bindings)
-            {
-	    	string vrcPropertyName = "";
+		EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(visemes);
+		foreach (EditorCurveBinding binding in bindings)
+            	{
+	    		string vrcPropertyName = "";
 				
-		AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
-		switch (binding.propertyName)
-                {
-			case "blendShape.あ"://aa
-				vrcPropertyName = "blendShape.vrc.v_aa";
-                        	break;
-			case "blendShape.い"://ih
-                        	vrcPropertyName = "blendShape.vrc.v_ih";
-                       		break;
-			case "blendShape.う"://ou
-                        	vrcPropertyName = "blendShape.vrc.v_ou";
-                        	break;
-			case "blendShape.え"://ee
-                        	vrcPropertyName = "blendShape.vrc.v_ee";
-                       		break;
-			case "blendShape.お"://oh
-                     	   	vrcPropertyName = "blendShape.vrc.v_oh";
-                        	break;
-			case "blendShape.ん"://nn
-                        	vrcPropertyName = "blendShape.vrc.v_nn";
-                        	break;
+			AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
+			switch (binding.propertyName)
+               		 {
+				case "blendShape.あ"://aa
+					vrcPropertyName = "blendShape.vrc.v_aa";
+                        		break;
+				case "blendShape.い"://ih
+                       	 		vrcPropertyName = "blendShape.vrc.v_ih";
+                       			break;
+				case "blendShape.う"://ou
+                        		vrcPropertyName = "blendShape.vrc.v_ou";
+                        		break;
+				case "blendShape.え"://ee
+                        		vrcPropertyName = "blendShape.vrc.v_ee";
+                       			break;
+				case "blendShape.お"://oh
+                     		   	vrcPropertyName = "blendShape.vrc.v_oh";
+                        		break;
+				case "blendShape.ん"://nn
+                        		vrcPropertyName = "blendShape.vrc.v_nn";
+                        		break;
 			}
 			
-               		if(vrcPropertyName.Length > 0) {
-                 	  clips.SetCurve(binding.path, binding.type, vrcPropertyName, curve);
-                	}
+               			if(vrcPropertyName.Length > 0) {
+                 		  clips.SetCurve(binding.path, binding.type, vrcPropertyName, curve);
+                		}
 		}//End Foreach
 	}//End vrChatVisemes
 
