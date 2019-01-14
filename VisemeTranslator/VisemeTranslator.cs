@@ -7,7 +7,7 @@
  * 
  * @author PonyCid
  * @Date : 27/12/2018
- * @version : 1.0
+ * @version : 1.2
  */
 
 
@@ -27,7 +27,7 @@ namespace VisemeTranslation
         private string dictionaryFileName = "dictionary.json";
         private TranslationData[] dictionary;
 
-        private bool vrChatVisemes = false;
+        private bool vrChatViseme = false;
 
         private AnimationClip clips;
         private AnimationClip visemes;
@@ -38,30 +38,9 @@ namespace VisemeTranslation
             EditorWindow.GetWindow<VisemeTranslation>(false, "VisemeTranslatorEditor");
         }
 
-        private void translation(AnimationClip clip, AnimationClip viseme)
+        private void translation()
         {
             loadDictionary();
-
-
-            if (clip == null)
-            {
-                Debug.LogError("Clip is empty");
-                return;
-            }
-            else
-            {
-                this.clips = clip;
-            }
-
-            if (visemes == null)
-            {
-                Debug.LogError("Visemes animation is emtpy");
-                return;
-            }
-            else
-            {
-                this.visemes = viseme;
-            }
 
             if (dictionary == null)
             {
@@ -76,6 +55,8 @@ namespace VisemeTranslation
                     string newPropertyName = "";
                     string oldPropertyName = "";
                    
+                    AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
+                    clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
 
                     foreach (TranslationData Translation in dictionary)
                     {
@@ -86,8 +67,6 @@ namespace VisemeTranslation
                         }
                     }
 
-                    AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
-                    clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
 
                     if (newPropertyName.Length > 0 && newPropertyName.Length > 0)
                     {
@@ -99,41 +78,46 @@ namespace VisemeTranslation
                         }
                     }
 
-                    if (vrChatVisemes)
-                    {
-                        string vrcPropertyName = "";
-
-                        switch (binding.propertyName)
-                        {
-                            case "blendShape.あ"://aa
-                                vrcPropertyName = "blendShape.vrc.v_aa";
-                                break;
-                            case "blendShape.い"://ih
-                                vrcPropertyName = "blendShape.vrc.v_ih";
-                                break;
-                            case "blendShape.う"://ou
-                                vrcPropertyName = "blendShape.vrc.v_ou";
-                                break;
-                            case "blendShape.え"://ee
-                                vrcPropertyName = "blendShape.vrc.v_ee";
-                                break;
-                            case "blendShape.お"://oh
-                                vrcPropertyName = "blendShape.vrc.v_oh";
-                                break;
-                            case "blendShape.ん"://nn
-                                vrcPropertyName = "blendShape.vrc.v_nn";
-                                break;
-                        }
-
-                        if(vrcPropertyName.Length > 0)
-                        {
-                            clips.SetCurve(binding.path, binding.type, vrcPropertyName, curve);
-                        }
-                    }
                 }//End Foreach
             }
             UnityEditorInternal.InternalEditorUtility.RequestScriptReload();
-        }
+        }//End translation
+		
+		private void vrChatVisemes(){
+			EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(visemes);
+            foreach (EditorCurveBinding binding in bindings)
+            {
+				string vrcPropertyName = "";
+				
+				AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
+				switch (binding.propertyName)
+                {
+					case "blendShape.あ"://aa
+						vrcPropertyName = "blendShape.vrc.v_aa";
+                        break;
+                    case "blendShape.い"://ih
+                        vrcPropertyName = "blendShape.vrc.v_ih";
+                        break;
+                    case "blendShape.う"://ou
+                        vrcPropertyName = "blendShape.vrc.v_ou";
+                        break;
+                    case "blendShape.え"://ee
+                        vrcPropertyName = "blendShape.vrc.v_ee";
+                        break;
+                    case "blendShape.お"://oh
+                        vrcPropertyName = "blendShape.vrc.v_oh";
+                        break;
+                    case "blendShape.ん"://nn
+                        vrcPropertyName = "blendShape.vrc.v_nn";
+                        break;
+                }
+
+                if(vrcPropertyName.Length > 0)
+                {
+                    clips.SetCurve(binding.path, binding.type, vrcPropertyName, curve);
+                }
+			}//End Foreach
+		}//End vrChatVisemes
 
         private void loadDictionary()
         {
@@ -156,9 +140,6 @@ namespace VisemeTranslation
 
         void OnGUI()
         {
-
-            
-
             GUILayout.BeginArea(new Rect(30, 10, windowSize, windowSize));
             GUILayout.Label("Your Clip:", GUILayout.Width(textColumnWidth));
             this.clips = (AnimationClip)EditorGUILayout.ObjectField(clips, typeof(AnimationClip), true, GUILayout.Width(textColumnWidth));
@@ -166,21 +147,32 @@ namespace VisemeTranslation
             this.visemes = (AnimationClip)EditorGUILayout.ObjectField(visemes, typeof(AnimationClip), true, GUILayout.Width(textColumnWidth));
 
             GUILayout.Label("", GUILayout.Width(textColumnWidth));
-            vrChatVisemes = GUILayout.Toggle(vrChatVisemes, "Create VrChat Visemes ?", GUILayout.Width(textColumnWidth));
+            vrChatViseme = GUILayout.Toggle(vrChatViseme, "Create VrChat Visemes ?", GUILayout.Width(textColumnWidth));
             GUILayout.Label("", GUILayout.Width(textColumnWidth));
 
-            if (GUILayout.Button("Do the translation", GUILayout.Width(textColumnWidth)))
-            {
-                if (clips != null && visemes != null)
-                {
-                    translation(clips, visemes);
-                    ShowNotification(new GUIContent("Done") );
-                }
-                else
-                {
-                    ShowNotification(new GUIContent("Incorrect Input"));
-                }
-            }
+			if(this.clips != null && this.visemes != null){
+			   if (GUILayout.Button("Do the translation", GUILayout.Width(textColumnWidth)))
+				{
+					if (clips != null && visemes != null)
+					{
+						translation();
+						
+						if (vrChatViseme)
+						{
+							vrChatVisemes();
+						}
+						
+						ShowNotification(new GUIContent("Done") );
+						this.clips = null; 
+						this.visemes = null;
+					}
+					else
+					{
+						ShowNotification(new GUIContent("Incorrect Input"));
+					}
+				}
+			}
+         
             GUILayout.EndArea();
         }
     }
