@@ -58,31 +58,31 @@ namespace VisemeTranslation
                     string newPropertyName = "";
                     string oldPropertyName = "";
                    
-				   if(!vrChatViseme || (vrChatViseme && Array.IndexOf(jpVisemes, binding.propertyName) == -1)){
+		    if(!vrChatViseme || (vrChatViseme && Array.IndexOf(jpVisemes, binding.propertyName) == -1)){
 					   
-					    AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
-						clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
+			AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
+			clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
 
-						foreach (TranslationData Translation in dictionary)
-						{
-							if (binding.propertyName == ("blendShape." + Translation.japName))
-							{
-								newPropertyName = ("blendShape." + Translation.newEngName);
-								oldPropertyName = ("blendShape." + Translation.oldEngName);
-							}
-						}
+			foreach (TranslationData Translation in dictionary)
+			{
+				if (binding.propertyName == ("blendShape." + Translation.japName))
+				{
+					newPropertyName = ("blendShape." + Translation.newEngName);
+					oldPropertyName = ("blendShape." + Translation.oldEngName);
+				}
+			}
 
 
-						if (newPropertyName.Length > 0 && newPropertyName.Length > 0)
-						{
-							clips.SetCurve(binding.path, binding.type, newPropertyName, curve);
+			if (newPropertyName.Length > 0 && newPropertyName.Length > 0)
+			{
+				clips.SetCurve(binding.path, binding.type, newPropertyName, curve);
 
-							if (!newPropertyName.Equals(oldPropertyName))
-							{
-								clips.SetCurve(binding.path, binding.type, oldPropertyName, curve);
-							}
-						}
-				   }
+				if (!newPropertyName.Equals(oldPropertyName))
+				{
+					clips.SetCurve(binding.path, binding.type, oldPropertyName, curve);
+				}
+			}
+		     }
                    
 
                 }//End Foreach
