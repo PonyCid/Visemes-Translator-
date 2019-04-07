@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Editor Script that allow you to add all the visemes on a given animation clips
  * set the clip that you want to add the visemes on
  * set the visemes clip that contain all the Japanese Shapes key
@@ -7,7 +7,8 @@
  * 
  * @author PonyCid
  * @Date : 27/12/2018
- * @version : 1.2
+ * @updated : 07/04/2019
+ * @version : 1.1
  */
 
 
@@ -16,6 +17,7 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 using UnityEditorInternal;
+using System;
 
 namespace VisemeTranslation
 {
@@ -28,6 +30,7 @@ namespace VisemeTranslation
         private TranslationData[] dictionary;
 
         private bool vrChatViseme = false;
+		private string[] jpVisemes =  new string[6]{"blendShape.あ", "blendShape.い", "blendShape.う", "blendShape.え", "blendShape.お", "blendShape.ん"};
 
         private AnimationClip clips;
         private AnimationClip visemes;
@@ -55,68 +58,74 @@ namespace VisemeTranslation
                     string newPropertyName = "";
                     string oldPropertyName = "";
                    
-                    AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
-                    clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
+				   if(!vrChatViseme || (vrChatViseme && Array.IndexOf(jpVisemes, binding.propertyName) == -1)){
+					   
+					    AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
+						clips.SetCurve(binding.path, binding.type, binding.propertyName, curve);
 
-                    foreach (TranslationData Translation in dictionary)
-                    {
-                        if (binding.propertyName == ("blendShape." + Translation.japName))
-                        {
-                            newPropertyName = ("blendShape." + Translation.newEngName);
-                            oldPropertyName = ("blendShape." + Translation.oldEngName);
-                        }
-                    }
+						foreach (TranslationData Translation in dictionary)
+						{
+							if (binding.propertyName == ("blendShape." + Translation.japName))
+							{
+								newPropertyName = ("blendShape." + Translation.newEngName);
+								oldPropertyName = ("blendShape." + Translation.oldEngName);
+							}
+						}
 
 
-                    if (newPropertyName.Length > 0 && newPropertyName.Length > 0)
-                    {
-                    clips.SetCurve(binding.path, binding.type, newPropertyName, curve);
+						if (newPropertyName.Length > 0 && newPropertyName.Length > 0)
+						{
+							clips.SetCurve(binding.path, binding.type, newPropertyName, curve);
 
-                        if (!newPropertyName.Equals(oldPropertyName))
-                        {
-                            clips.SetCurve(binding.path, binding.type, oldPropertyName, curve);
-                        }
-                    }
+							if (!newPropertyName.Equals(oldPropertyName))
+							{
+								clips.SetCurve(binding.path, binding.type, oldPropertyName, curve);
+							}
+						}
+				   }
+                   
 
                 }//End Foreach
             }
             UnityEditorInternal.InternalEditorUtility.RequestScriptReload();
-        }//End translation
+        }
 		
-	private void vrChatVisemes(){
-		EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(visemes);
-		foreach (EditorCurveBinding binding in bindings)
-            	{
-	    		string vrcPropertyName = "";
+		
+		private void vrChatVisemes(){
+			EditorCurveBinding[] bindings = AnimationUtility.GetCurveBindings(visemes);
+            foreach (EditorCurveBinding binding in bindings)
+            {
+				string vrcPropertyName = "";
 				
-			AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
-			switch (binding.propertyName)
-               		 {
-				case "blendShape.あ"://aa
-					vrcPropertyName = "blendShape.vrc.v_aa";
-                        		break;
-				case "blendShape.い"://ih
-                       	 		vrcPropertyName = "blendShape.vrc.v_ih";
-                       			break;
-				case "blendShape.う"://ou
-                        		vrcPropertyName = "blendShape.vrc.v_ou";
-                        		break;
-				case "blendShape.え"://ee
-                        		vrcPropertyName = "blendShape.vrc.v_ee";
-                       			break;
-				case "blendShape.お"://oh
-                     		   	vrcPropertyName = "blendShape.vrc.v_oh";
-                        		break;
-				case "blendShape.ん"://nn
-                        		vrcPropertyName = "blendShape.vrc.v_nn";
-                        		break;
+				AnimationCurve curve = AnimationUtility.GetEditorCurve(visemes, binding);
+				switch (binding.propertyName)
+                {
+					case "blendShape.あ"://aa
+						vrcPropertyName = "blendShape.vrc.v_aa";
+                        break;
+                    case "blendShape.い"://ih
+                        vrcPropertyName = "blendShape.vrc.v_ih";
+                        break;
+                    case "blendShape.う"://ou
+                        vrcPropertyName = "blendShape.vrc.v_ou";
+                        break;
+                    case "blendShape.え"://e
+                        vrcPropertyName = "blendShape.vrc.v_e";
+                        break;
+                    case "blendShape.お"://oh
+                        vrcPropertyName = "blendShape.vrc.v_oh";
+                        break;
+                    case "blendShape.ん"://nn
+                        vrcPropertyName = "blendShape.vrc.v_nn";
+                        break;
+                }
+
+                if(vrcPropertyName.Length > 0)
+                {
+                    clips.SetCurve(binding.path, binding.type, vrcPropertyName, curve);
+                }
 			}
-			
-               			if(vrcPropertyName.Length > 0) {
-                 		  clips.SetCurve(binding.path, binding.type, vrcPropertyName, curve);
-                		}
-		}//End Foreach
-	}//End vrChatVisemes
+		}//EndvrChatVisemes
 
         private void loadDictionary()
         {
@@ -160,7 +169,6 @@ namespace VisemeTranslation
 						{
 							vrChatVisemes();
 						}
-						
 						ShowNotification(new GUIContent("Done") );
 						this.clips = null; 
 						this.visemes = null;
